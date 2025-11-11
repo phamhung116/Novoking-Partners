@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novoking Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#0a5c98',
+                '50': '#e5f0f8',
+                '100': '#cce2f1',
+                '200': '#a6d0e8',
+                '300': '#77b9dd',
+                '400': '#55a0d1',
+                '500': '#0a5c98',
+                '600': '#09548a',
+                '700': '#084671',
+                '800': '#07395d',
+                '900': '#05263d',
+                '950': '#041f2f'
+              },
+              secondary: {
+                DEFAULT: '#972c2c',
+                '50': '#f9f4f4',
+                '100': '#f3e9e9',
+                '200': '#e7d2d2',
+                '300': '#dcbaba',
+                '400': '#c58d8d',
+                '500': '#972c2c',
+                '600': '#892828',
+                '700': '#742222',
+                '800': '#601d1d',
+                '900': '#4e1919',
+                '950': '#290d0d'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<style>
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    * {
+        scrollbar-width: none;  /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+</style>
+</head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

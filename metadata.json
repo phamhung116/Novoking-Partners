@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Novoking Partner - Dungcu + Thunhap",
+  "description": "Ứng dụng dành cho đối tác của Novoking Đà Nẵng để nhận và quản lý công việc. Dễ dàng xem và nhận các công việc mới, theo dõi các công việc đã nhận.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
